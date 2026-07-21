@@ -1,0 +1,152 @@
+
+:root{
+--color-bg-body: rgba(178, 216, 235, 0.563);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.div-color{
+    background-color: rgba(76, 103, 255, 0.153);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    margin-bottom:5rem;
+}
+
+body{
+    background-color:var(--color-bg-body);
+}
+
+.h1-color{
+    background-color: rgba(14, 46, 114, 0.812);
+    color: white;
+    text-align: center;
+}
+
+.div-color h1{
+    color: rgb(10, 10, 68);
+    text-align: center;
+margin-left:1rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 1rem;
+}
+
+ ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+}
+
+ ul li a{
+    text-decoration: none;
+    color: rgb(3, 27, 79);
+}
+
+
+
+.logo{
+    display: block;
+    width: 3rem;
+    height: 3rem;
+}
+
+p{
+    padding: 1rem;
+    text-align: center;
+}
+
+article > p{
+    font-size:1.8rem;
+}
+
+.card{
+    width:300px;
+    height: 300px;
+    border: 3px solid rgb(4, 15, 86);
+    justify-content: center;
+    margin: 1rem auto;
+    background-color:rgba(255, 255, 255, 0.582); 
+    margin:2rem;
+    overflow:hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+
+}
+
+h3{
+    color: rgb(8, 8, 190);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.card-content{
+        text-align: center;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form div{
+justify-content: space-between;
+margin-bottom: 1rem;
+}
+
+
+
+fieldset div label{
+    display:inline-flex;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+fieldset > legend{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+button{
+    padding:.5rem;
+    background-color: rgba(76, 103, 255, 0.153);
+    border: none;
+margin-left:50%;
+   
+}
+
+section{
+    margin-bottom: 2rem;
+}
+
+aside{
+    margin-left: 2rem;
+}
